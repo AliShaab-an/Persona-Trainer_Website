@@ -3,7 +3,7 @@
     define("server","localhost");
     define("User","root");
     define("password", "");
-    define("dbname", "web_project");
+    define("dbname", "");
 
     $con = mysqli_connect(server,User,password,dbname);
     if($con)

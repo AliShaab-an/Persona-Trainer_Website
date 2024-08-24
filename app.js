@@ -5,21 +5,21 @@
 //     input.addEventListener("input",() =>{
 //         let minVal = parseInt(rangeInput[0].value),
 //         maxVal = parseInt(rangeInput[1].value)
-        
+
 //         progress.style.left=(minVal/ rangeInput[0].max)*100 + "%";
-        
+
 //         progress.style.right=100 - (maxVal/ rangeInput[1].max)*100 + "%";
 //     });
 // });
 
+// alert("the javascript is loaded");
 
-function showSidebar(){
-    const sidebar = document.querySelector('.sidebar');
-    sidebar.style.display='flex'
+function showSidebar() {
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.display = "flex";
 }
 
-function hideSidebar(){
-    const sidebar = document.querySelector('.sidebar');
-    sidebar.style.display='none'
+function hideSidebar() {
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.display = "none";
 }
-
