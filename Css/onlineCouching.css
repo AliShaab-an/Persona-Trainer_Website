@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url(fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.onlinecouching {
+}
+
+.online-container {
+    background-color: aliceblue;
+}
+
+.name {
+    width: 40%;
+}
+
+.name p {
+    padding-top: 30%;
+    padding-left: 10%;
+    margin-bottom: 10px;
+    color: #717171;
+}
+
+.name h1 {
+    padding-left: 10%;
+}
+
+.form {
+    width: 60%;
+    margin-left: 40%;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 20%;
+} 

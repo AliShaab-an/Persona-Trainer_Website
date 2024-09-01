@@ -3,7 +3,7 @@
 <html>
   <head>
     <title>Ali Shaaban Fitness</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Css/style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script
       src="https://kit.fontawesome.com/7f6ab6587f.js"
@@ -29,6 +29,6 @@
     </main>
     <!--footer-->
     <?php include 'Footer.html'; ?>
-    <script src="app.js"></script>
+    <script src="Js/app.js"></script>
   </body>
 </html>

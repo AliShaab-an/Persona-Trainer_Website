@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/onlineCouching.css">
     <script src="https://kit.fontawesome.com/7f6ab6587f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    
+    
 
     <title>Online Coaching</title>
 </head>
@@ -35,5 +38,6 @@
 
     <!--Footer-->
     <?php include 'Footer.html'; ?>
+    <script src="JS/app.js"></script>
 </body>
 </html>

@@ -1,9 +1,16 @@
+<?php 
+    require_once 'includes/config_session.inc.php';
+    require_once 'includes/signup_view.inc.php';
+
+?>
+
+
 <!DOCTYPE html>
 
 <html>
     <head>
         <title>Account</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Css/style.css">
         <script src="https://kit.fontawesome.com/7f6ab6587f.js" crossorigin="anonymous"></script>
     </head>
 
@@ -16,29 +23,27 @@
                 <div class="form-details">
                 </div>
                 <div class="form-content">
-                    <h2>REGESITER</h2>
+                    <h2>REGISTER</h2>
                     <h5>Please fill in the fields below:</h5>
-                    <form  action="#">
+                    <form  action="includes/signup.inc.php" method="POST">
                         <div class="input-field">
-                            <input type="text" required>
-                            <label>Fisrst name</label>
+                            <?php username_input(); ?>
+                            <label>Username</label>
                         </div>
+                        
                         <div class="input-field">
-                            <input type="text" required>
-                            <label>Last name</label>
-                        </div>
-                        <div class="input-field">
-                            <input type="text" required>
+                            <?php email_input(); ?>
                             <label>Email</label>
                         </div>
                         <div class="input-field">
-                            <input type="password" required>
+                            <?php password_input(); ?>
                             <label>Password</label>
                         </div>
                         <button type="submit">Create Account</button>    
                     </form>
+                    <?php check_signup_errors();   ?>
                     <div class="button-link">
-                        Already hava an account? 
+                        Already have an account? 
                         <a href="login.php">Login</a>
                     </div>
                 </div>
@@ -47,7 +52,7 @@
         <!--Footer-->
         <?php include 'Footer.html';?>
 
-        <script src="app.js"></script>
+        <script src="JS/app.js"></script>
     </body>
 
 </html>

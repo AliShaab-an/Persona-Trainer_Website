@@ -23,3 +23,24 @@ function hideSidebar() {
   const sidebar = document.querySelector(".sidebar");
   sidebar.style.display = "none";
 }
+
+function cart(){
+  let cart = document.querySelector(".cart");
+  cart.style.display = "flex";
+};
+
+
+function closeCart(){
+  let cart = document.querySelector(".cart");
+  cart.style.display = "none";
+};
+
+function search(){
+  let cart = document.querySelector(".search");
+  cart.style.display = "flex";
+};
+
+function search(){
+  let cart = document.querySelector(".search");
+  cart.style.display = "none";
+};

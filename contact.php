@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7f6ab6587f.js" crossorigin="anonymous"></script>
     <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
     <!--Header-->
@@ -139,6 +139,6 @@
 
     <!--footer-->
     <?php include 'Footer.html'; ?>
-    <script src="index.js"></script>
+    <script src="Js/app.js"></script>
 </body>
 </html>

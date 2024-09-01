@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Css/style.css" />
     <script
       src="https://kit.fontawesome.com/7f6ab6587f.js"
       crossorigin="anonymous"
@@ -52,6 +52,6 @@
 
     <!--Footer-->
     <?php include 'Footer.html'; ?>
-    <script src="app.js"></script>
+    <script src="JS/app.js"></script>
   </body>
 </html>

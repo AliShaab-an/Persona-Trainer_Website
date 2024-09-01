@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7f6ab6587f.js" crossorigin="anonymous"></script>
     <title>Training Programs</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
     <!--Header-->
@@ -94,7 +94,7 @@ PROGRAMS
         </div>
         <div class="tp-container">
           <div class="tp">
-            <a href="FirstTrainingProgram.html" class="desc">
+            <a href="FirstTrainingProgram.php" class="desc">
               <img
                 src="images/Intermediate-AdvancedPushPullLegsHypertrophyProgram.webp"
                 alt=""
@@ -138,7 +138,7 @@ BENCH PRESS SPECIALIZATION
 
     <!--Footer-->
     <?php include 'Footer.html'; ?>
-    <script src="app.js"></script>
+    <script src="JS/app.js"></script>
     
 </body>
 </html>
