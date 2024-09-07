@@ -6,64 +6,13 @@
     <script src="https://kit.fontawesome.com/7f6ab6587f.js" crossorigin="anonymous"></script>
     <title>Contact Us</title>
     <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/contact.css">
 </head>
 <body>
     <!--Header-->
     <?php include 'Header.html'; ?>
 
-    <style>
-      .text-info {
-        text-align: center;
-        padding: 0;
-      }
-
-      .text-info h4{
-        margin: 1em 0;
-        font-weight: 700;
-      }
-
-      .text-info div {
-        width: 65%;
-        text-align: center;
-        margin-left: 23%;
-        margin-top: 1em;
-      }
-
-      #div-1 {
-        margin-left: 12%;
-      }
-
-      .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-      }
-
-      #first-section img {
-        width: 80%;
-        border-radius: 20px;
-        margin-top: 3%;
-        margin-left: 10%;
-      }
-      #astrics {
-        color: red;
-      }
-      @media (max-width: 900px) {
-        .container {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        .text-info div {
-          width: 90%;
-          text-align: center;
-          margin: 1em 5%;
-        }
-      }
-    </style>
-
+    
     <!--main-->
     <main>
       <section id="first-section">

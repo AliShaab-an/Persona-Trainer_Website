@@ -1,0 +1,147 @@
+main{
+    margin-top: 3%;
+}
+
+.text-info {
+    text-align: center;
+    padding: 0;
+}
+
+.text-info h4{
+    margin: 1em 0;
+    font-weight: 700;
+}
+
+.text-info div {
+    width: 65%;
+    text-align: center;
+    margin-left: 23%;
+    margin-top: 1em;
+}
+
+#div-1 {
+    margin-left: 12%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#first-section img {
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+#astrics {
+    color: red;
+}
+
+.contactus-main{
+    background-color: rgb(245, 245, 245, 0.5);
+}
+.contactus-main h1 {
+    margin-left: 4.5%;
+    margin-top: 10%;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    font-size: 2rem;
+}
+
+.contactus-main .feedback {
+    color: #717171;
+    width: 50%;
+    margin: 1em 4.5%;
+}
+
+.help-form {
+    margin-left: 4.5%;
+}
+
+.help-form_labels {
+    font-size: 1.4rem;
+    margin: 0.5em 0;
+}
+
+.help-form_div input {
+    width: 50%;
+    height: 3em;
+    outline: none;
+    border-radius: 3px;
+    font-size: 0.95rem;
+    border: 1px solid #717171;
+}
+
+.help-form_div input:is(:focus, :valid) {
+    padding: 5px 15px 0;
+}
+  
+#DropDown {
+    width: 50%;
+    height: 3em;
+    outline: none;
+    border-radius: 3px;
+    font-size: 0.95rem;
+    border: 1px solid #717171;
+}
+
+textarea {
+    width: 50%;
+    height: 200px;
+    margin-bottom: 2em;
+}
+
+textarea:is(:focus, :valid) {
+    padding: 10px 10px 0;
+}
+
+.submint-btn button {
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    width: 6em;
+    font-size: 1.1rem;
+    padding: 0.7em;
+    cursor: pointer;
+    margin-bottom: 1e
+}
+.submint-btn {
+    width: 100%;
+}
+  /* Media Quire */
+@media (max-width:1000px){
+    .contactus-main{
+        width: 100%;
+    }
+.contactus-main .feedback {
+    color: #717171;
+    width: 90%;
+    margin: 1em 4.5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .text-info div {
+      width: 90%;
+      text-align: center;
+      margin: 1em 5%;
+    }
+    textarea{
+        width: 70%;
+    }
+    #DropDown{
+        width: 70%;
+    }
+    .help-form_div input{
+        width: 70%;
+    }
+  }

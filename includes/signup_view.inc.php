@@ -5,7 +5,7 @@ declare(strict_types=1);
 function username_input(){
 
     if(isset($_SESSION["signup_data"]["username"]) && !isset($_SESSION["errors_signup"]["username_taken"])){
-        echo '<input type="text"  name="username" value="'. $_SESSION["signup_data"]["username"] .'">';
+        echo '<input type="text" required  name="username" value="'. $_SESSION["signup_data"]["username"] .'">';
     }else{
         echo '<input type="text"  name="username">';
     }

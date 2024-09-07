@@ -44,3 +44,27 @@ function search(){
   let cart = document.querySelector(".search");
   cart.style.display = "none";
 };
+
+let toastBox = document.getElementById('toastBox');
+let successMsg = '<i class="fa-solid fa-circle-check"></i> Added to Cart';
+
+function showToast(msg){
+
+  let toast = document.createElement("div");
+  toast.classList.add('toast');
+  toast.innerHTML = msg;
+  toastBox.appendChild(toast);
+
+  setTimeout(() =>{
+    toast.remove();
+  },4000);
+}
+
+function openPopup(){
+  let popup = document.getElementById("popup");
+  popup.classList.add("open-popup");
+}
+
+function closePopup(){
+  popup.classList.remove("open-popup");
+}

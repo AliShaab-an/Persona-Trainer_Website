@@ -9,12 +9,21 @@ require_once 'includes/login_view.inc.php';
     <head>
         <title>Login</title>
         <link rel="stylesheet" href="Css/style.css">
+        <link rel="stylesheet" href="Css/login-signup_form.css">
         <script src="https://kit.fontawesome.com/7f6ab6587f.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <!--Header-->
         <?php include 'Header.html'; ?>
+        <div class="container-popup">
+            <div class="popup" id="popup">
+                <img src="images/404-tick.png" alt="">
+                <h2>Thank You!</h2>
+                <p>your details are successfully submitted. Thanks!</p>
+                <button onclick="closePopup()" type="button">OK</button>
+            </div>
+        </div>
         
         <div class="form-popup">
             <div class="form-box">
@@ -33,11 +42,11 @@ require_once 'includes/login_view.inc.php';
                             <label>Password</label>
                         </div>
                         <a href="#" class="forget-pass">Forgot password</a>
-                        <button type="submit">LOGIN</button>    
+                        <button id="login-btn" onclick="openPopup()" type="submit">LOGIN</button>    
                     </form>
                     <div class="button-link">
                         New Customer? 
-                        <a href="creatAccount.php">Create an account</a>
+                        <a href="createAccount.php">Create an account</a>
                     </div>
                     <form  action="includes/logout.inc.php" method="post">
                         <button>Logout</button>
